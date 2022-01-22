@@ -1,0 +1,16 @@
+* {
+  line-height: 1;
+}
+
+.number__child {
+  padding-left: 40px;
+}
+
+p.number__parent:nth-child(3n-1){
+  color: red;
+}
+
+p.number__child:nth-child(2), p.number__child:nth-child(3){
+  color: blue;
+}
+
