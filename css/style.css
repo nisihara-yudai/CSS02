@@ -14,3 +14,39 @@ p.number__child:nth-child(2), p.number__child:nth-child(3){
   color: blue;
 }
 
+/* 優先順位 */
+div.class {
+  color: blue;
+  margin: 10px 0;
+}
+
+p#id{
+  color: green;
+}
+
+p[id]{
+  color: purple;
+}
+
+span{
+  color: red;
+}
+
+/* 要素の表示形式 */
+div#id01 {
+  background-color: aqua;
+  margin-bottom: 10px;
+}
+
+h1#id02{
+  background-color: aquamarine;
+  margin-bottom: 10px;
+}
+
+span#id03{
+  background-color: violet;
+}
+
+strong#id04{
+  background-color: blueviolet;
+}
